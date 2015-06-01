@@ -20,7 +20,7 @@ public class Task6 {
 			int prime = (int) (Math.pow(2, i) - 1);
 			
 			// Print if it has six digits
-			if (prime >= 100000 && prime < 1000000) {
+			if (isPrime && prime >= 100000 && prime < 1000000) {
 				System.out.println(prime);
 			}
 		}
